@@ -142,9 +142,21 @@ main {
   border-left: 3px solid #ff900e;
   padding: 10px;
 }
-
-.features-div-container {
+.ten-years-badge {
+  border-radius: 8px;
+  background-color: #ff900e;
+  color: white;
+  width: 300px;
+  padding: 40px;
 }
+
+.ten-years-badge h1 {
+  font-size: 3rem;
+}
+.ten-years-badge p {
+  text-align: center;
+}
+
 .features-div-section {
   padding: 20px;
   box-shadow: 0px 1px 5px 5px #d7dbdc9f;
