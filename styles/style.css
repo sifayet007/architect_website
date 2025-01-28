@@ -142,19 +142,26 @@ main {
   border-left: 3px solid #ff900e;
   padding: 10px;
 }
+.experience img {
+  height: 90%;
+  margin-left: 90px;
+}
 .ten-years-badge {
   border-radius: 8px;
   background-color: #ff900e;
   color: white;
   width: 300px;
   padding: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
 }
 
 .ten-years-badge h1 {
   font-size: 3rem;
 }
 .ten-years-badge p {
-  text-align: center;
+  font-size: 1.5rem;
 }
 
 .features-div-section {
