@@ -154,6 +154,11 @@ main {
 .facts-card-container {
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
+}
+
+.facts-paragraph {
+  margin-top: 20px;
 }
 .facts-card-container .card {
   border-radius: 8px;
@@ -172,4 +177,30 @@ main {
   color: #424242;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+/* sponsors section styles */
+.sponsors {
+  margin-top: 50px;
+  text-align: center;
+}
+.sponsors-paragraph {
+  margin-top: 30px;
+}
+.sponsors-img-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-paragraph {
+  text-align: center;
+
+  background-color: antiquewhite;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
 }
